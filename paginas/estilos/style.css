@@ -1,0 +1,9 @@
+row-img{
+    height: 40vh;
+}
+
+d-block{
+    object-fit: contain;
+    width: 100%!important;
+    height: 100vh;
+}
