@@ -74,7 +74,7 @@
 
 /* backgroun- repeat: no repeat// backgraund position:center center(para centrar la imagen) backgraund attachmen(para qu   aimagen quede fija*/
 .body-img-inicio{
-    background:url(../imagenes/posible\ fondo.jpg) no-repeat center center fixed;
+    background:url(../imagenes/POSIBLEFONDOINI.jpg) no-repeat center center fixed;
     background-size: cover;     
 }
 
