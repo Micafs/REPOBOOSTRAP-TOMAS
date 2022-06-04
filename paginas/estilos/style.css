@@ -144,6 +144,30 @@ nav ul li a{
 
 /*Comienza la pagina de inicio*/
 
+.logo{
+    height: 90px;
+}
+
+.colornav{
+    background-color: #cc969670;
+}
+
+.navderecha{
+justify-content: end;
+
+}
+
+.navbar-nav{
+    font-size: 25px;
+    
+}
+
+.nav-link{
+margin: 15px;
+}
+
+
+
 .tarjetas {
     width: 80%;
     margin: 60px auto;
@@ -208,14 +232,17 @@ nav ul li a{
     display: flex;
     justify-content: center;
     font-family: cursive;
-    color: slategrey;
+    color: rgb(217, 223, 230);
 }
 
 
 .card{
+    
     width: 30%;
     height: auto;
-}
+    margin: auto;
+    }
+
 
 
 
@@ -243,7 +270,7 @@ nav ul li a{
     
 .titulo-pnosotros{
         font-family: 'Playfair Display', serif;
-        padding: 50px;
+        /*padding: 50px;*/
         font-size: 50px;
         color: #ffffff;
         text-align: center;
@@ -272,6 +299,10 @@ nav ul li a{
         width: 50%;
 }
 */
+
+.card-header{
+    padding: 100px 10px;
+}
 
 
 #cardnosotros{
@@ -378,6 +409,10 @@ label{
     
 }
 
+.formuario-entero{
+    display: flex;
+}
+
 
 
 .redes-contacto{
@@ -387,4 +422,30 @@ label{
     justify-content: flex-end;
     right: 5px;
     text-align: right;
+}
+
+
+@media screen  and (max-width: 600px) {
+    
+    .navbar-nav{
+        font-size: 25px;
+        align-items: center;
+    }
+}
+
+@media screen  and (max-width: 600px) {
+
+    .cardini{
+        width: 90%;
+        margin: 10px;
+}
+}
+
+
+@media screen  and (max-width: 600px) {
+
+    #cardnosotros{
+        width: 75%;
+        margin: 13%;
+}
 }
