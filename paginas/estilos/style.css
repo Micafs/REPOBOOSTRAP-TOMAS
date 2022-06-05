@@ -329,6 +329,14 @@ margin: 15px;
     
 }
 
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    padding: 50px 0;
+}
+
 .galery{
     margin: auto;
     width: 90%;
@@ -352,7 +360,27 @@ margin: 15px;
 /*contacto*/
 
 
+/*#marco{
+    padding: 200px;
+}*/
 
+.form-label{
+    color: white;
+    font-size: 1.7rem;
+    
+    
+}
+
+.mb-3 {
+    /* width: 20%; */
+    display: list-item;
+    margin: auto;
+    width: fit-content;
+    list-style: none;
+}
+
+
+/*
 .section-contacto{
     
     display: flex;
@@ -413,11 +441,11 @@ label{
     display: flex;
 }
 
-
+*/
 
 .redes-contacto{
     display: flex;
-    position:absolute;
+    position:fixed;
     bottom: 0;
     justify-content: flex-end;
     right: 5px;
@@ -447,5 +475,17 @@ label{
     #cardnosotros{
         width: 75%;
         margin: 13%;
+}
+}
+
+/*#marco{
+    padding: 200px;
+}*/
+
+
+@media screen  and (min-width: 600px) {
+
+    #marco{
+    padding: 200px;
 }
 }
